@@ -2,7 +2,7 @@
 
 Name:           perl-Pod-POM
 Version:        0.27
-Release:        10%{?dist}
+Release:        9%{?dist}
 
 Summary:        Object-oriented interface to Perl POD documents
 
@@ -78,9 +78,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.27-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.27-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
